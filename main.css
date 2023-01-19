@@ -46,7 +46,7 @@ body{
 .main-nav__items{
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none; 
 }
 .main-nav__item{
     display: inline-block;
@@ -89,3 +89,24 @@ border-bottom: white 10px solid;
 /* p::first-letter{
     color: #ff1b68;
 } */
+
+nav {
+    margin-bottom: 16px;
+    background: #fa923f;
+    padding: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+p::first-letter{
+ color: #ff1b68;
+ font-size: large;
+}
+.main-section {
+    border: 1px solid #ccc;
+    padding: 16px;
+}
