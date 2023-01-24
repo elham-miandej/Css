@@ -9,7 +9,7 @@ body {
 
 #product-overview {
     background: url("freedom.jpg");
-    width: 100%;
+    width: auto;
     height: 528px;
     padding: 10px;   
 }
@@ -136,4 +136,52 @@ color: rgb(100, 97, 97);
 
 .plan--highlighted .plan__title{
     color: white;
+}
+
+.button{
+    background: #0e4f1f;
+    color:white ;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active{
+    background: white;
+    color:#0e4f1f
+}
+.button:focus{
+    outline: none;
+}
+#key-features{
+    background: #ff1b68;
+    margin-top: 80px;
+    padding:16px;
+}
+#key-features .section-title{
+    color:white;
+    margin: 32px;
+}
+.key-feature__list{
+ list-style: none;
+ margin:0;
+ padding:0;
+ text-align: center;
+}
+
+.key-feature{
+    display:inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__description{
+    text-align: center;
+    font-weight:blod;
+    color:white;
+    font-size: 20px;
 }
